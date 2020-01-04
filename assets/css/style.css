@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
+@import url('https://rsms.me/inter/inter.css');
+
+h1, h2, h3, h4, h5 {
+    font-weight: bold;
+}
+
+h2 {
+    margin-top: 3rem;
+}
+
+.card-title {
+    margin: 0rem;
+}
+
+.card-body-blog {
+    border: grey solid 0.5px;
+    border-radius: 10px;
+}
+
+h4 {
+    color: #131313;
+}
+
+body {
+    font-family: Karla, sans-serif;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+}
+
+.logo, #title {
+    width: 72px;
+}
+
+#title {
+    color: black;
+    font-weight: bold;
+}
+
+main {
+    padding: 4rem 2rem;
+}
+
+article, main .about {
+    max-width: 800px;
+    margin: auto;
+}
+
+article h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.container-blog h4 {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 1rem;
+    color: grey;
+}
+
+article h5 {
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    font-size: 1.25rem;
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.select-subject, .welcome {
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+}
+
+.kimia, .fisika, .mtk, .biologi, .ekonomi, .inggris {
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 4rem;
+    padding: 1 rem;
+}
+
+/* fucking cards */
+.mtk .card {
+    max-width: 45%;
+}
+
+/* button */
+button {
+    font-family: Karla;
+    font-size: 22px;
+    border: none;
+    width: 150px;
+}
+
+.btn {
+    margin: 0.75rem;
+    font-size: 22px;
+    color: white;
+    border-radius: 10px;
+}
+
+.btn-primary {
+    font-size: 18px;
+    background-color: #131313;
+    border: none;
+}
+
+.read-more {
+    margin: 0px;
+}
+
+@media screen and (max-width: 600px) {
+    .card {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
